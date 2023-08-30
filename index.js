@@ -42,7 +42,7 @@ function start(client) {
         else if (message.body === '3' && message.isGroupMsg === false) {
             await client.sendText(message.from, "Descubra nossos cursos técnicos, cada um com sua própria carga horária e uma jornada de aprendizado única. 👩‍🎓👨‍🎓")
             await client.sendText(message.from, "A certificação é concedida ao concluir com sucesso qualquer um desses cursos.")
-            await client.sendText(message.from, "Conheça alguns deles:\n- Administração: Gerenciamento empresarial, 12 meses, carga horária total: [Inserir carga horária]. 💰\n- Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: [Inserir carga horária]. 💻 🌐\n- Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: [Inserir carga horária]. 👩‍🎨\n- Secretariado: Organização e comunicação, 12 meses, carga horária total: [Inserir carga horária]. 👩‍💼\n- Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: [Inserir carga horária]. 🔧⚡")
+            await client.sendText(message.from, "Conheça alguns deles:\n- Administração: Gerenciamento empresarial, 12 meses, carga horária total: 1000 horas. 💰\n\n- Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: 1200 horas.💻🌐\n\n- Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: 1000 horas. 👩‍🎨\n\n- Secretariado: Organização e comunicação, 12 meses, carga horária total: 1000 horas. 👩‍💼\n\n- Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: 1000 horas. 🔧⚡")
             await sendMenu()
         }
 
