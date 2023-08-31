@@ -42,7 +42,7 @@ function start(client) {
         else if (message.body === '3' && message.isGroupMsg === false) {
             await client.sendText(message.from, "Descubra nossos cursos técnicos, cada um com sua própria carga horária e uma jornada de aprendizado única. 👩‍🎓👨‍🎓")
             await client.sendText(message.from, "A certificação é concedida ao concluir com sucesso qualquer um desses cursos.")
-            await client.sendText(message.from, "Conheça alguns deles:\n- Administração: Gerenciamento empresarial, 12 meses, carga horária total: 1000 horas. 💰\n\n- Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: 1200 horas.💻🌐\n\n- Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: 1000 horas. 👩‍🎨\n\n- Secretariado: Organização e comunicação, 12 meses, carga horária total: 1000 horas. 👩‍💼\n\n- Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: 1000 horas. 🔧⚡")
+            await client.sendText(message.from, "- 💰 Administração: Gerenciamento empresarial, 12 meses, carga horária total: 1000 horas.\n\n- 💻 Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: 1200 horas.\n\n- 👩‍🎨 Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: 1000 horas.\n\n- 👩‍💼 Secretariado: Organização e comunicação, 12 meses, carga horária total: 1000 horas.\n\n- 🔧 Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: 1000 horas.\n\n- 📗 Inglês: Nível básico, médio ou avançado, 12 meses, carga horária total: 500 horas.")
             await sendMenu()
         }
 
@@ -57,7 +57,7 @@ function start(client) {
         else if (message.body === '5' && message.isGroupMsg === false) {
             await client.sendText(message.from, "A matrícula para o próximo ano letivo é realizada no final de cada ano.")
             await client.sendText(message.from, "Acompanhe nossas redes sociais e site para ficar por dentro das datas e procedimentos necessários.")
-            await client.sendText(message.from, "https://acaonsfatima.org.br/\nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
+            await client.sendText(message.from, "site oficial - https://acaonsfatima.org.br/ \nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
             
             await sendMenu()
         }
