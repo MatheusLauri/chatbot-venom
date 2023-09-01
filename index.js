@@ -34,7 +34,7 @@ function start(client) {
 
         else if (message.body === '2' && message.isGroupMsg === false) {
             await client.sendText(message.from, "O uso do uniforme é obrigatório para todos os estudantes.")
-            await client.sendText(message.from, "Você pode adquirir o uniforme no endereço: Adão Rocumback, 50 - Veleiros. 🛣")
+            await client.sendText(message.from, "🛣 - Você pode adquirir o uniforme no endereço: Adão Rocumback, 50 - Veleiros.  \n\n 📍- https://goo.gl/maps/WpyEhzowwvwauJRg9")
             await client.sendText(message.from, "Mais informações pelo telefone: (11) 95075-0011.📞")
             await sendMenu()
         }
@@ -42,14 +42,14 @@ function start(client) {
         else if (message.body === '3' && message.isGroupMsg === false) {
             await client.sendText(message.from, "Descubra nossos cursos técnicos, cada um com sua própria carga horária e uma jornada de aprendizado única. 👩‍🎓👨‍🎓")
             await client.sendText(message.from, "A certificação é concedida ao concluir com sucesso qualquer um desses cursos.")
-            await client.sendText(message.from, "- 💰 Administração: Gerenciamento empresarial, 12 meses, carga horária total: 1000 horas.\n\n- 💻 Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: 1200 horas.\n\n- 👩‍🎨 Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: 1000 horas.\n\n- 👩‍💼 Secretariado: Organização e comunicação, 12 meses, carga horária total: 1000 horas.\n\n- 🔧 Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: 1000 horas.\n\n- 📗 Inglês: Nível básico, médio ou avançado, 12 meses, carga horária total: 500 horas.")
+            await client.sendText(message.from, "- 💰 Administração: Gerenciamento empresarial, 12 meses, carga horária total: 1000 horas.\n\n- 💻 Informática: Programação, bancos de dados e redes, 12 meses, carga horária total: 1200 horas.\n\n- 👩‍🎨 Comunicação Visual: Design e produção gráfica, 12 meses, carga horária total: 1000 horas.\n\n- 👩‍💼 Secretariado: Organização e comunicação, 12 meses, carga horária total: 1000 horas.\n\n- ⚡ Eletrotécnica: Eletricidade e sistemas eletrônicos, 12 meses, carga horária total: 1000 horas.\n\n - 🔧 Eletromecânica: Manutenção de sistemas mecânicos e elétricos, 12 meses, carga horária total: 1000 horas.\n\n- 📗 Inglês: Nível básico, médio ou avançado, 12 meses, carga horária total: 500 horas.")
             await sendMenu()
         }
 
         else if (message.body === '4' && message.isGroupMsg === false) {
             await client.sendText(message.from, "A matrícula é destinada apenas aos alunos aprovados no processo seletivo. 👨‍🏫👩‍🏫")
             await client.sendText(message.from, "Fique atento às informações divulgadas em nossas redes sociais e site sobre o processo seletivo e datas de inscrição.")
-            await client.sendText(message.from, "https://acaonsfatima.org.br/\nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
+            await client.sendText(message.from, "site oficial - https://acaonsfatima.org.br/\n\nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \n\nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
             await sendMenu()
         }
 
@@ -57,18 +57,21 @@ function start(client) {
         else if (message.body === '5' && message.isGroupMsg === false) {
             await client.sendText(message.from, "A matrícula para o próximo ano letivo é realizada no final de cada ano.")
             await client.sendText(message.from, "Acompanhe nossas redes sociais e site para ficar por dentro das datas e procedimentos necessários.")
-            await client.sendText(message.from, "site oficial - https://acaonsfatima.org.br/ \nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
+            await client.sendText(message.from, "site oficial - https://acaonsfatima.org.br/ \n\nInstagram - https://instagram.com/institutonsfatima?igshid=NjIwNzIyMDk2Mg== \n\nFacebook - https://www.facebook.com/institutonsfatima?mibextid=ZbWKwL")
             
             await sendMenu()
         }
 
         if (message.body === '6' && message.isGroupMsg === false) {
             await client.sendText(message.from, "Para conhecer nossas normas de convivência e nossa história, acesse: https://acaonsfatima.org.br/2022/01/22/normas-2023/")
+            await client.sendText(message.from, "🛣 - Venha conhecer nossa escola no endereço: Av. Coronel Octaviano de Freitas Costa, 463 - Socorro \n\n 📍- https://goo.gl/maps/pwAU32ZfvSMSYqMZA")
+
+            
             await sendMenu()
         }
 
         else if (message.body === '9' && message.isGroupMsg === false)
-            await client.sendText(message.from, "Espero que essas informações sejam úteis! Se você tiver mais dúvidas ou precisar de assistência adicional, sinta-se à vontade para perguntar.")
+            await client.sendText(message.from, "Espero que essas informações tenham sido úteis! Se você tiver mais dúvidas ou precisar de assistência adicional, sinta-se à vontade para perguntar.")
 
     });
 }
